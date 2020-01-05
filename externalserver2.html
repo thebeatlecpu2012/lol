@@ -58,7 +58,7 @@
         $('web-search-box').onsubmit = function() {
           var url = $('url').value;
           //this is the URL for the server
-          window.location.href = `http://math-book.herokuapp.com/${url}`;
+          window.location.href = `http://math-book.herokuapp.com/textbooks/${url}`;
           return false;
         };
         window.onload = function() {
